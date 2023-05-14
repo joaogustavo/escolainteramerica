@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+.conteudos-lateral-esquerda {
+	display: inline-block;
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 2%;
+	max-width: 310px;
+	position: relative;
+	width: 100%;
+}
+.conteudos-lateral-direita {
+	display: inline-block;
+	float: left;
+	margin-bottom: 15px;
+	margin-top: 33px;
+	max-width: 755px;
+	position: relative;
+	width: 100%;
+}
+.conteudos-lateral-titulo {
+	color: #005794;
+	display: block;
+	font-family: 'myriad_probold';
+	font-size: 2rem;
+	margin-bottom: 5px;
+	padding: 5px 2px;
+	position: relative;
+	width: 100%;
+}
+.menu-interno {
+	background: #f0f4f7;
+	display: block;
+	font-family: 'myriad_probold';
+	font-size: 1.5rem;
+	list-style: none;
+	position: relative;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	-webkit-padding-start: 0;
+	width: 100%;
+}
+.menu-interno ul {
+	background: rgba(0,0,0,0.06);
+	border-top: dotted 2px #cdd5dd;
+	display: none;
+	font-family: 'myriad_proregular';
+	list-style: none;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	-webkit-padding-start: 0;
+	width: 100%;
+}
+.menu-interno ul:before {
+	color: #91a6b9;
+	content: '\f0dd';
+	display: block;
+	font-family: 'FontAwesome';
+	font-size: 1.4rem;
+	height: 0;
+	position: absolute;
+	right: 15px;
+	top: -11px;
+	width: 0;
+}
+.menu-interno li {
+	border-bottom: dotted 2px #cdd5dd;
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.menu-interno li a {
+	color: #447a97;
+	display: block;
+	padding: 10px 4%;
+	position: relative;
+	width: 100%;
+}
+.menu-interno li a:hover, .menu-interno li a:focus {
+	background: #447a97;
+	color: #ffffff;
+	text-decoration: none;
+}
+.menu-interno ul li {
+	border: none;
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.menu-interno ul li a {
+	color: #1b85b9;
+	padding: 4px 4%;
+}
+.menu-interno ul li a:hover, .menu-interno ul li a:focus {
+	background: #1b85b9;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 1148px) {
+.conteudos-lateral-direita {
+	width: calc(69% * 1 - 10%);
+}
+}
+@media screen and (max-width: 979px) {
+.conteudos-lateral-direita {
+	margin-top: 15px;
+	max-width: 969px;
+	width: 100%;
+}
+}
